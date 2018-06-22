@@ -62,7 +62,7 @@ function removeTodo(todo){
   .catch(function(err){
     console.log(err);
   })
-}
+} 
 
 function updateTodo(todo){
   var updateUrl = '/api/todos/' + todo.data('id');
